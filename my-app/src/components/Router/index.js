@@ -1,14 +1,14 @@
 import React from 'react'
 import { HashRouter, Route, Routes } from 'react-router-dom'
 // import { Homepage } from './pages/Homepage'
-import { Homepage } from '../../pages/Homepage'
+import { Homepage } from '../../pages/homePage/Homepage'
 import { Failure } from '../../pages/Failure'
 import CoursePage from '../../pages/coursePage'
 import NotesTable from '../NotesTable/'
 
 export default function Router(props) {
     return (
-        <HashRouter>
+        <HashRouter basename={process.env.PUBLIC_URL}>
             <Routes>
                 {/*tries to match path through the following list, if can't match anything it returns the 404 component*/}
                 <Route exact path="/" element={<Homepage/>}/> {/*match nothing*/}

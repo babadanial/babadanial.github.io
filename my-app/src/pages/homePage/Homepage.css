@@ -1,0 +1,34 @@
+.mainContentWrapper {
+  margin-top: 2em;
+}
+
+h1 {
+  color: #3c3091;
+  font-family: 'Hedvig Letters Serif', serif;
+}
+
+a {
+  color: #3c3091;
+}
+
+hr {
+  background-color: var(--accent-color);
+  height: 3px;
+}
+
+p {
+  font-size: 20px;
+}
+
+.mainContent {
+  /* top: 0;
+  bottom: 0; */
+}
+
+.contentColumn {
+  bottom: 0;
+}
+
+.leftContentColumn {
+  border-right: 1.5px solid var(--accent-color);
+}

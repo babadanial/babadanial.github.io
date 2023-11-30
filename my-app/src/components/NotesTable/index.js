@@ -9,7 +9,6 @@ var resourceFormat;
 
 function createTableElements(value, key, map) {
     // to understand what key and value are, look at the "resources" property of the course interface in CourseList.ts
-
     var downloadLinks = [];
     value.forEach(
         (resource, index) => {
@@ -29,8 +28,6 @@ function NotesTable(props) {
     tableElements = []
     resourceFormat = props.resourceFormat
     props.resources.forEach(createTableElements)
-    console.log(props)
-    console.log(tableElements)
     return  (
             <Table hover striped>
                 <thead></thead>
