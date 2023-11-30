@@ -18,6 +18,7 @@ hr {
 
 p {
   font-size: 20px;
+  text-align: justify;
 }
 
 .mainContent {
@@ -31,4 +32,9 @@ p {
 
 .leftContentColumn {
   border-right: 1.5px solid var(--accent-color);
+  padding-right: var(--homepage-col-padding-amount);
+}
+
+.rightContentColumn {
+  padding-left: var(--homepage-col-padding-amount);
 }

@@ -5,6 +5,7 @@ body {
 :root {
   --accent-color: #29659e;
   --hover-color:  #EEF1F4;
+  --homepage-col-padding-amount: 1.75em;
 }
 
 .App {

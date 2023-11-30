@@ -31,7 +31,7 @@ export const Homepage = () => (
                         and handwritten (neatly, don't worry) content, mostly content summaries.
                     </p>
                 </Col>
-                <Col className="contentColumn">
+                <Col className="rightContentColumn contentColumn">
                     <p>
                         All work on this website is licensed under a Creative Commons Attribution Non-Commercial ShareAlike 
                         4.0 International License (<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>). 
