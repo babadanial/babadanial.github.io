@@ -1,0 +1,16 @@
+table {
+    font-weight: 400;
+}
+
+table, td, tr {
+    border: 0.12em solid var(--accent-color);
+    font-size: 1.05em;
+}
+
+.table-hover tbody tr:hover td {
+    background: var(--hover-color);
+}
+
+td {
+    background-color: black;
+}

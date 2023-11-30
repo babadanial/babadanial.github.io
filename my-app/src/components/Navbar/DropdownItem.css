@@ -1,0 +1,24 @@
+.animated-dropdown {
+    transition: all 0.08s ease-in-out
+}
+
+.animated-dropdown.hovered { 
+    transform: scale(1.05);
+}
+
+.animated-dropdown.hovered a {
+    color: var(--hover-color);
+}
+
+.animated-button {
+    transition: all 0.08s ease-in-out
+}
+
+.animated-button.hovered {
+    transform: scale(1.03);
+    background-color: var(--accent-color);
+}
+
+a.animated-button.hovered {
+    color: var(--hover-color);
+}

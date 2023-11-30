@@ -1,0 +1,19 @@
+.nav {
+    background-color: var(--accent-color);
+}
+
+.navbar-nav a {
+    color: #DBDBDB;
+}
+
+.navbar-nav a:hover {
+    color: #B5B5B5;
+}
+
+.navbar-nav .nav-link.show {
+    color: #F5F5F5;
+}
+
+.navbar-expand-sm .navbar-nav .nav-item {
+    margin-right: 0.3em;
+}

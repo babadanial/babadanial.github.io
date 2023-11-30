@@ -1,0 +1,78 @@
+:root {
+    --header-font: 'Bitter', serif;
+    --header-padding: 1em;
+    --main-width: 87.5%;
+    --header-height: 7em;
+}
+
+div.courseTitle {
+    text-align: center;
+    padding-top: var(--header-padding);
+    padding-bottom: var(--header-padding);
+    font-family: var(--header-font);
+    height: var(--header-height);}
+
+.courseTitle h1 {
+    font-weight: 600;
+}
+
+p.taken {
+    text-align: center;
+    font-style: italic;
+    font-size: 0.93em;
+    margin-bottom: 0em;
+    font-weight: 400;
+}
+
+hr.titleRule {
+    margin-top: 0em;
+}
+
+h5 {
+    font-family: var(--header-font);
+    font-weight: 700;
+}
+
+div.coursePageHeader-enter {
+    width: 87.5%;
+    margin-left: auto;
+    margin-right: auto;
+    height: calc(var(--header-height) + 0.15em);
+}
+
+div.coursePageHeader-enter-active {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    height: var(--header-height);
+    transition: width 150ms ease-in-out, height 300ms ease-in-out
+}
+
+div.content {
+    width: var(--main-width);
+    margin: auto;
+    padding-top: 0.5em;
+}
+
+div.mainContent-enter {
+    opacity: 0.1;
+    /* padding-right: 100% */
+    margin-right: 10%;
+    /* transform: scale(0.99) */
+}
+
+div.mainContent-enter-active {
+    opacity: 1;
+    /* padding-right: auto; */
+    margin-right: calc((100% - var(--main-width)) / 2);
+    /* time given below is duration of transition */
+    transition: opacity 800ms, margin-right 300ms ease-in-out 
+}
+
+.mainContent-exit {
+    opacity: 1;
+}
+.mainContent-exit-active {
+    opacity: 0.3;
+    transition: opacity 1000ms;
+}
