@@ -10,7 +10,7 @@ export const Homepage = () => (
             <Container className="mainContent">
             <Row>
                 <Col>
-                    <h1>
+                    <h1 className="homepageHeader">
                         <b>
                             Danny's CS Notes
                         </b>
