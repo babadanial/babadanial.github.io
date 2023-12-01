@@ -1,11 +1,11 @@
 import React from "react";
 import Nav from 'react-bootstrap/Nav'
 import Navbar from 'react-bootstrap/Navbar'
-import { Container, NavDropdown } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 import './Navbar.css'
-import {Dropdown, DropdownItem} from './DropdownItem'
+import { Dropdown, DropdownItem } from './DropdownItem'
 
-export default () => {
+var MyNavbar = () => {
     // const [toggle, setToggle] = useState(false)
     return  <Navbar data-bs-theme="dark" className="nav"> 
                 <Container fluid>
@@ -45,3 +45,5 @@ export default () => {
                 </Container>
             </Navbar>
 }
+
+export default MyNavbar;

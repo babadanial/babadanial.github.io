@@ -1,7 +1,6 @@
 import React from 'react'
 import Table from 'react-bootstrap/Table'
 import './NotesTable.css'
-import { Link } from "react-router-dom"
 
 var tableElements
 var row = 0;
@@ -12,7 +11,7 @@ function createTableElements(value, key, map) {
     var downloadLinks = [];
     value.forEach(
         (resource, index) => {
-            downloadLinks.push(<td key={resource}><a download href={resource} target="_blank">{resourceFormat[index]}</a></td>)
+            downloadLinks.push(<td key={resource}><a download href={resource} target="_blank" rel="noreferrer">{resourceFormat[index]}</a></td>)
         }
     )
     tableElements[row] = (

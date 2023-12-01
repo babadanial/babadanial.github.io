@@ -40,7 +40,7 @@ export const Homepage = () => (
                     </p>
                     
                     <p>
-                        Everything on this website is unofficial and is not guaranteed to be correct; content here exists 
+                        Everything on this website is unofficial and is not guaranteed to be correct, and content here exists
                         under the belief that is permitted by the associated faculty members: 
                         please <a href="mailto:dakbarza@uwaterloo.ca">contact me</a> if anything is not and it will be unpublished. 
                     </p>

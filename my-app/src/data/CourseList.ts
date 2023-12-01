@@ -4,7 +4,6 @@ interface course {
     resourceFormat: Array<string>; // maybe should be Array<'OneNote' | 'PDF'>
     semesterTaken: string;
 }
-var tempResourceMap;
 
 // MATH 135
 
@@ -31,6 +30,7 @@ MATH239.resources.set("Enumeration", ["/CourseNotes/MATH/MATH239/Enumeration.one
 MATH239.resources.set("Graph Theory", ["/CourseNotes/MATH/MATH239/Graph Theory.one"])
 MATH239.resourceFormat = ['OneNote']
 
-export default {
+var courses = {
     "MATH239": MATH239,
 }
+export default courses;
