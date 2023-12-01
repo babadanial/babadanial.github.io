@@ -23,9 +23,68 @@ p {
   text-align: justify;
 }
 
-.mainContent {
-  /* top: 0;
-  bottom: 0; */
+.headerTransition-enter {
+  opacity: 0;
+}
+
+.headerTransition-enter-active {
+  opacity: 1;
+  transition: opacity 1200ms linear;
+}
+
+.headerHrTransition-enter {
+  margin-right: 100%;
+}
+
+.headerHrTransition-enter-active {
+  margin-right: 0%;
+  transition: margin-right 1200ms ease-in-out;
+}
+
+.leftColTransition-enter {
+  margin-top: 10%;
+  opacity: 0;
+}
+
+.leftColTransition-enter-active {
+  margin-top: 0%;
+  opacity: 1;
+  transition: margin-top 800ms ease-in-out, opacity 1500ms linear;
+}
+
+.rightColTransition-enter {
+  margin-top: 10%;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.rightColTransition-enter-active {
+  margin-top: 0%;
+  opacity: 1;
+  transition: margin-top 800ms ease-in-out 200ms, opacity 1500ms linear 200ms;
+  visibility: visible;
+}
+
+.middleSeparatorTransition-enter {
+  margin-top: 25%;
+  margin-bottom: 25%;
+  opacity: 0;
+}
+
+.middleSeparatorTransition-enter-active {
+  margin-top: 0%;
+  margin-bottom: 0%;
+  opacity: 1;
+  transition: 
+    margin-top 1000ms ease-in-out 500ms, 
+    margin-bottom 1000ms ease-in-out 500ms,
+    opacity 1400ms ease-in-out;
+}
+
+.middleSeparator {
+  padding: 0;
+  width: 1.75px;
+  background-color: var(--accent-color);
 }
 
 .contentColumn {
@@ -33,7 +92,6 @@ p {
 }
 
 .leftContentColumn {
-  border-right: 1.5px solid var(--accent-color);
   padding-right: var(--homepage-col-padding-amount);
 }
 
