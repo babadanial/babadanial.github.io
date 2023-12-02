@@ -21,7 +21,7 @@ var MyNavbar = () => {
                                 <DropdownItem href="#action/3.1" text="CS 246"/>
                                 <DropdownItem href="#action/3.1" text="CS 251"/>
                                 <DropdownItem href="#action/3.1" text="CS 341"/>
-                                <DropdownItem href="#action/3.1" text="CS 348"/>
+                                <DropdownItem href="#/CS348" text="CS 348"/>
                                 <DropdownItem href="#action/3.1" text="CS 350"/>
                             </Dropdown>
                             <Dropdown className="nav-item" title="STAT" id="basic-nav-dropdown">
@@ -29,7 +29,7 @@ var MyNavbar = () => {
                                 <DropdownItem href="#action/3.1" text="STAT 231"/>
                             </Dropdown>
                             <Dropdown className="nav-item" title="CO" id="basic-nav-dropdown">
-                                <DropdownItem href="#action/3.1" text="CO 250"/>
+                                <DropdownItem href="#/CO250" text="CO 250"/>
                                 <DropdownItem href="#action/3.1" text="CO 351"/>
                             </Dropdown>
                             <Dropdown className="nav-item" title="MATH" id="basic-nav-dropdown">
