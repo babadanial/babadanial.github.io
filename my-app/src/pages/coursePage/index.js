@@ -20,7 +20,7 @@ var CoursePage = (props) => {
             <CSSTransition
                 in={showHeader}
                 nodeRef={headerRef}
-                timeout={800}
+                timeout={1500}
                 classNames="coursePageHeader"
                 >
                 <div className="bg-body-secondary courseTitle" ref={headerRef}>

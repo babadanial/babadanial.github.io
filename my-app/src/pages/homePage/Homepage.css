@@ -7,6 +7,10 @@
   font-family: 'Hedvig Letters Serif', serif;
 }
 
+body {
+  overflow: hidden;
+}
+
 a {
   color: #3c3091;
 }
