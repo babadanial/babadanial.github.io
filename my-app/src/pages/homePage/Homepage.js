@@ -36,7 +36,7 @@ export const Homepage = () => {
                         >
                         <h1 className="homepageHeader" ref={headerRef}>
                             <b>
-                                Danny's CS Notes
+                                Danny's Notes
                             </b>
                         </h1>
                     </CSSTransition>
@@ -66,6 +66,11 @@ export const Homepage = () => {
                             Use the navigation bar on top to see if the course you are looking for is available here and access 
                             the associated note files, which will usually be in OneNote (.one) format. There's a mix of typed 
                             and handwritten (neatly, don't worry) content, mostly content summaries.
+                        </p>
+
+                        <p>
+                            Notes for more courses are on the way; please be patient since my PC is slow and it takes
+                            time to export each OneNote file one by one and add it to the site's files.
                         </p>
                     </Col>
                 </CSSTransition>

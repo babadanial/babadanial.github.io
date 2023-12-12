@@ -32,7 +32,7 @@ CO250.resources.set("Chapter 2.2-2.8", [CO250Path + "2.2-2.8.one"])
 CO250.resources.set("Chapter 3 - Duality and Convexity", [CO250Path + "3.one"])
 CO250.resourceFormat = ['OneNote']
 
-// CS348
+// CS 348
 var CS348Path = CSPath + "CS348/"
 const CS348 = new courseInstance("CS348", "Winter 2023")
 CS348.resources.set("Introduction", [CS348Path + "Intro.one"])
@@ -53,9 +53,11 @@ CS348.resources.set("Analytics", [CS348Path + "Analytics.one"])
 CS348.resources.set("Big Data", [CS348Path + "Big Data.one"])
 CS348.resourceFormat = ['OneNote']
 
-// MATH 135
-
 // MATH 136
+var MATH136Path = MathPath + "MATH136/"
+const MATH136 = new courseInstance("MATH136", "Winter 2021")
+MATH136.resources.set("Mind map - concepts, results from second half of course", [MATH136Path + "Test 3 Prep.one"])
+MATH136.resourceFormat = ['OneNote']
 
 // MATH 137
 
@@ -65,14 +67,28 @@ CS348.resourceFormat = ['OneNote']
 
 // MATH 239
 const MATH239Path = MathPath + "MATH239/"
-const MATH239 =  new courseInstance ("MATH239", "Fall 2022")
+const MATH239 = new courseInstance("MATH239", "Fall 2022")
 MATH239.resources.set("Enumeration", [MATH239Path + "Enumeration.one"])
 MATH239.resources.set("Graph Theory", [MATH239Path + "Graph Theory.one"])
 MATH239.resourceFormat = ['OneNote']
 
+// STAT 230
+const STAT230Path = StatPath + "STAT230/"
+const STAT230 = new courseInstance("STAT230", "Fall 2021")
+STAT230.resources.set("Intro Material", [STAT230Path + "Intro Summary.one"])
+STAT230.resources.set("Probability Laws", [STAT230Path + "Laws Summary.one"])
+STAT230.resources.set("Discrete Univariate Distributions", [STAT230Path + "Distributions Summary.one"])
+STAT230.resources.set("Mean and Standard Deviation Properties", [STAT230Path + "Mean and Stdev.one"])
+STAT230.resources.set("Continuous Univariate Distributions", [STAT230Path + "Continuous univariate.one"])
+STAT230.resources.set("Discrete Multivariate Distributions",  [STAT230Path + "Discrete Multivariate.one"])
+STAT230.resources.set("Continuous Multivariate Distributions",  [STAT230Path + "Continuous Multivariate.one"])
+STAT230.resourceFormat = ['OneNote']
+
 var courses = {
     "CO250" : CO250,
     "CS348" : CS348,
-    "MATH239": MATH239,
+    "MATH136" : MATH136,
+    "MATH239" : MATH239,
+    "STAT230" : STAT230,
 }
 export default courses;

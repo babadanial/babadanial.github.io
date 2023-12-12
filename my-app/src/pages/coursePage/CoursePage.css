@@ -5,6 +5,10 @@
     --header-height: 7em;
 }
 
+body {
+    overflow: auto;
+}
+
 div.courseTitle {
     text-align: center;
     padding-top: var(--header-padding);
