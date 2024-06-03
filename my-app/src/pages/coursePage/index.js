@@ -24,7 +24,7 @@ var CoursePage = (props) => {
                 classNames="coursePageHeader"
                 >
                 <div className="bg-body-secondary courseTitle" ref={headerRef}>
-                    <h1>{courseName}</h1>
+                    <h1>{courseToDisplay.title}</h1>
                     <p className='taken'>Taken {courseToDisplay.semesterTaken}</p>
                 </div>
             </CSSTransition>

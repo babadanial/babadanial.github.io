@@ -5,7 +5,6 @@
 //     semesterTaken: string;
 // }
 
-
 const COPath = "/CourseNotes/CO/"
 const CSPath = "/CourseNotes/CS/"
 const MathPath = "/CourseNotes/MATH/"
