@@ -1,4 +1,4 @@
-import React, { useState, useRef } from 'react'
+import React, { useState, useRef, useEffect } from 'react'
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -21,6 +21,13 @@ export const Homepage = () => {
     const leftColRef = useRef(null)
     const rightColRef = useRef(null)
     const middleSepRef = useRef(null)
+
+    // set title for page
+    //  if the second argument (dependencies) were an empty array, it would
+    //  callsuseEffect only once, making it similar to componentDidMount.
+    useEffect(() => {
+        document.title = "Danny's Notes"
+     }, []);
 
     return (
     <React.Fragment>

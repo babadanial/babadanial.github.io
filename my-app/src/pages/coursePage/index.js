@@ -1,4 +1,4 @@
-import React, { useState, useRef } from 'react'
+import React, { useState, useRef, useEffect } from 'react'
 import NotesTable from '../../components/NotesTable'
 import Courses from '../../data/CourseList.ts'
 import './CoursePage.css'
@@ -14,6 +14,13 @@ var CoursePage = (props) => {
     setTimeout(setShowHeader, 0, true)
     const tableRef = useRef(null)
     const headerRef = useRef(null)
+
+    // set title for page
+    //  if the second argument (dependencies) were an empty array, it would
+    //  callsuseEffect only once, making it similar to componentDidMount.
+    useEffect(() => {
+        document.title = courseToDisplay.title
+     }, [courseToDisplay.title]);
 
     return (
         <> 
