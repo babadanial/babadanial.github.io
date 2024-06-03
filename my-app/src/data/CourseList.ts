@@ -12,8 +12,8 @@ const StatPath = "/CourseNotes/STAT/"
 class courseInstance // implements course
 {
     title: string;
-    resources = new Map<string, Array<string>>;
-    resourceFormat = new Array<string>;
+    resources = new Map<string, Array<string>>();
+    resourceFormat = new Array<string>();
     semesterTaken: string;
 
     constructor(name: string, semesterTaken: string) {
@@ -82,7 +82,7 @@ MATH136.resourceFormat = ['OneNote']
 
 // MATH 239
 const MATH239Path = MathPath + "MATH239/"
-const MATH239 = new courseInstance("MATH239 - Introduction to Combinatorics", "Fall 2022")
+const MATH239 = new courseInstance("MATH239 - Intro to Combinatorics", "Fall 2022")
 MATH239.resources.set("Enumeration", [MATH239Path + "Enumeration.one"])
 MATH239.resources.set("Graph Theory", [MATH239Path + "Graph Theory.one"])
 MATH239.resourceFormat = ['OneNote']

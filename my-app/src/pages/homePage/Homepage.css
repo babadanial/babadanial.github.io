@@ -102,3 +102,10 @@ p {
 .rightContentColumn {
   padding-left: var(--homepage-col-padding-amount);
 }
+
+.colHeader {
+  color: #564AAB;
+  /* #3c3091; */
+  font-family: 'Hedvig Letters Serif', serif;
+  font-weight: bold;
+}

@@ -58,20 +58,17 @@ export const Homepage = () => {
                     timeout={7000}
                     classNames="leftColTransition">
                     <Col className="leftContentColumn contentColumn" ref={leftColRef}>
+                        <h2 className="colHeader">What is this?</h2>
                         <p>
                             This is an open archive of personal notes I have created in my time studying computer science 
                             at the University of Waterloo, including CS, CO, STAT and MATH courses.
                         </p>
                         <p>
                             Use the navigation bar on top to see if the course you are looking for is available here and access 
-                            the associated note files, which will usually be in OneNote (.one) format. There's a mix of typed 
-                            and handwritten (neatly, don't worry) content, mostly content summaries.
+                            the associated note files, which will usually be in OneNote (.one) format. Everything is in Cornell format, 
+                            (without end-of-page summaries), with a mix of typed and handwritten notes.
                         </p>
 
-                        <p>
-                            Notes for 10 more courses will be published over the break; please be patient since my PC is slow and it takes
-                            time to export each OneNote file one by one to then add them to the site's files.
-                        </p>
                     </Col>
                 </CSSTransition>
                 <CSSTransition
@@ -88,6 +85,7 @@ export const Homepage = () => {
                     timeout={5000}
                     classNames="rightColTransition">
                     <Col className="rightContentColumn contentColumn" ref={rightColRef}>
+                        <strong><h2 className="colHeader">Permissions</h2></strong>
                         <p>
                             All work on this website is licensed under a Creative Commons Attribution Non-Commercial ShareAlike 
                             4.0 International License (<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>). 
