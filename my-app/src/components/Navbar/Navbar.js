@@ -22,6 +22,7 @@ var MyNavbar = () => {
                                 <DropdownItem href="#action/3.1" text="CS 251"/>
                                 <DropdownItem href="#action/3.1" text="CS 341"/> */}
                                 <DropdownItem href="#/CS348" text="CS 348"/>
+                                <DropdownItem href="#/CS350" text="CS 350"/>
                                 {/* <DropdownItem href="#action/3.1" text="CS 350"/> */}
                             </Dropdown>
                             <Dropdown className="nav-item" title="STAT" id="basic-nav-dropdown">

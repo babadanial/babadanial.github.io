@@ -103,6 +103,7 @@ STAT230.resourceFormat = ['OneNote']
 var courses = {
     "CO250" : CO250,
     "CS348" : CS348,
+    "CS350" : CS350,
     "MATH136" : MATH136,
     "MATH239" : MATH239,
     "STAT230" : STAT230,
