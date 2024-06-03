@@ -25,7 +25,7 @@ class courseInstance // implements course
 
 // CO 250
 var CO250Path = COPath + "CO250/"
-const CO250 = new courseInstance("CO250", "Fall 2022")
+const CO250 = new courseInstance("CO250 - Intro to Optimization", "Fall 2022")
 CO250.resources.set("Chapter 1", [CO250Path + "1.one"])
 CO250.resources.set("Chapter 2.1-2.2", [CO250Path + "2.1-2.2.one"])
 CO250.resources.set("Chapter 2.2-2.8", [CO250Path + "2.2-2.8.one"])
@@ -34,7 +34,7 @@ CO250.resourceFormat = ['OneNote']
 
 // CS 348
 var CS348Path = CSPath + "CS348/"
-const CS348 = new courseInstance("CS348", "Winter 2023")
+const CS348 = new courseInstance("CS348 - Relational Databases", "Winter 2023")
 CS348.resources.set("Introduction", [CS348Path + "Intro.one"])
 CS348.resources.set("Relational Model", [CS348Path + "Relational Model.one"])
 CS348.resources.set("Basic SQL", [CS348Path + "SQL Basics.one"])
@@ -53,9 +53,25 @@ CS348.resources.set("Analytics", [CS348Path + "Analytics.one"])
 CS348.resources.set("Big Data", [CS348Path + "Big Data.one"])
 CS348.resourceFormat = ['OneNote']
 
+// CS 350
+var CS350Path = CSPath + "CS350/"
+const CS350 = new courseInstance("CS350 - Operating Systems", "Winter 2023")
+CS350.resources.set("Processes", [CS350Path + "Processes.one"])
+CS350.resources.set("Threads", [CS350Path + "Threads.one"])
+CS350.resources.set("Concurrency 1", [CS350Path + "Concurrency 1.one"])
+CS350.resources.set("Concurrency 2", [CS350Path + "Concurrency 2.one"])
+CS350.resources.set("Syscalls", [CS350Path + "Syscall.one"])
+CS350.resources.set("Virtual Machines", [CS350Path + "VM Intro.one"])
+CS350.resources.set("Paging", [CS350Path + "Paging.one"])
+CS350.resources.set("Scheduling", [CS350Path + "Scheduling.one"])
+CS350.resources.set("Introduction to I/O", [CS350Path + "IO Intro.one"])
+CS350.resources.set("Hard Disks", [CS350Path + "Hard Disks.one"])
+CS350.resources.set("Filesystems", [CS350Path + "Filesystems.one"])
+CS350.resourceFormat = ['OneNote']
+
 // MATH 136
 var MATH136Path = MathPath + "MATH136/"
-const MATH136 = new courseInstance("MATH136", "Winter 2021")
+const MATH136 = new courseInstance("MATH136 - Linear Algebra 1", "Winter 2021")
 MATH136.resources.set("Mind map - concepts, results from second half of course", [MATH136Path + "Test 3 Prep.one"])
 MATH136.resourceFormat = ['OneNote']
 
@@ -67,14 +83,14 @@ MATH136.resourceFormat = ['OneNote']
 
 // MATH 239
 const MATH239Path = MathPath + "MATH239/"
-const MATH239 = new courseInstance("MATH239", "Fall 2022")
+const MATH239 = new courseInstance("MATH239 - Introduction to Combinatorics", "Fall 2022")
 MATH239.resources.set("Enumeration", [MATH239Path + "Enumeration.one"])
 MATH239.resources.set("Graph Theory", [MATH239Path + "Graph Theory.one"])
 MATH239.resourceFormat = ['OneNote']
 
 // STAT 230
 const STAT230Path = StatPath + "STAT230/"
-const STAT230 = new courseInstance("STAT230", "Fall 2021")
+const STAT230 = new courseInstance("STAT230 - Probability", "Fall 2021")
 STAT230.resources.set("Intro Material", [STAT230Path + "Intro Summary.one"])
 STAT230.resources.set("Probability Laws", [STAT230Path + "Laws Summary.one"])
 STAT230.resources.set("Discrete Univariate Distributions", [STAT230Path + "Distributions Summary.one"])

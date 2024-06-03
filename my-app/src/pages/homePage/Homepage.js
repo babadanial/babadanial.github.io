@@ -69,8 +69,8 @@ export const Homepage = () => {
                         </p>
 
                         <p>
-                            Notes for more courses are on the way; please be patient since my PC is slow and it takes
-                            time to export each OneNote file one by one and add it to the site's files.
+                            Notes for 10 more courses will be published over the break; please be patient since my PC is slow and it takes
+                            time to export each OneNote file one by one to then add them to the site's files.
                         </p>
                     </Col>
                 </CSSTransition>
