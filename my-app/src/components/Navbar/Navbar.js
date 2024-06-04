@@ -4,7 +4,7 @@ import Navbar from 'react-bootstrap/Navbar'
 import { Container } from "react-bootstrap";
 import './Navbar.css'
 import { Dropdown, DropdownItem } from './DropdownItem'
-// import myLogo from './favicon.ico'
+import myLogo from '../../favicon.png'
 
 var MyNavbar = () => {
     // const [toggle, setToggle] = useState(false)
@@ -13,7 +13,7 @@ var MyNavbar = () => {
                     <Navbar.Toggle aria-controls="basic-navbar-nav"/>
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="me-auto">
-                            <Nav.Link className="nav-item" href="/">Home</Nav.Link>
+                            <Nav.Link className="nav-item" href="/"><img className="homeImage" src={myLogo}/></Nav.Link>
                             <Dropdown className="nav-item" title="CS" id="basic-nav-dropdown">
                                 {/* <DropdownItem href="#action/3.1" text="CS 135"/>
                                 <DropdownItem href="#action/3.1" text="CS 136"/>

@@ -18,6 +18,32 @@
     font-size: 1.15em;
 }
 
+.nav-item:active {
+    filter: brightness(0.5);
+    transition: 0.2s
+}
+
+/* a.nav-link {
+    padding-right: 0em;
+} */
+
+.homeImage {
+    width: 1.7em;
+    /* height: 1.5em; */
+    margin-right: 0.33em;
+    /* height: auto; */
+}
+
+.homeImage:hover {
+    filter: brightness(0.8);
+    transition: 0.2s
+}
+
+.homeImage:active {
+    filter: brightness(0.5);
+    transition: 0.2s
+}
+
 .navbar-expand-sm .navbar-nav .nav-item {
     margin-right: 0.3em;
 }
