@@ -30,7 +30,7 @@ var CoursePage = (props) => {
                 timeout={1500}
                 classNames="coursePageHeader"
                 >
-                <div className="bg-body-secondary courseTitle" ref={headerRef}>
+                <div className="bg-dark-subtle courseTitle" ref={headerRef}>
                     <h1>{courseToDisplay.title}</h1>
                     <p className='taken'>Taken {courseToDisplay.semesterTaken}</p>
                 </div>
