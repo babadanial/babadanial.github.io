@@ -14,6 +14,10 @@
     color: #F5F5F5;
 }
 
+.nav-item {
+    font-size: 1.15em;
+}
+
 .navbar-expand-sm .navbar-nav .nav-item {
     margin-right: 0.3em;
 }
