@@ -67,7 +67,7 @@ export const Homepage = () => {
                     <Col className="leftContentColumn contentColumn" ref={leftColRef}>
                         <h2 className="colHeader">What is this?</h2>
                         <p>
-                            This is an open archive of personal notes I have created in my time studying computer science 
+                            This is an <strong>open archive of personal notes</strong> I have created in my time studying computer science 
                             at the University of Waterloo, including CS, CO, STAT and MATH courses.
                         </p>
                         <p>
