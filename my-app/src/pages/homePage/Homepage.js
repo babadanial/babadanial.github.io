@@ -71,9 +71,13 @@ export const Homepage = () => {
                             at the University of Waterloo, including CS, CO, STAT and MATH courses.
                         </p>
                         <p>
-                            Use the navigation bar on top to see if the course you are looking for is available here and access 
+                            Use the navbar on top to see if the course you are looking for is available here and access 
                             the associated note files, which will usually be in OneNote (.one) format. Everything is in Cornell format, 
                             (without end-of-page summaries), with a mix of typed and handwritten notes.
+                        </p>
+                        <p>
+                            There's a lot more course notes I have to upload; however it is a slow process since they need to be exported
+                            one-by-one from OneNote on my slow Windows PC, which is tedious.
                         </p>
 
                     </Col>
