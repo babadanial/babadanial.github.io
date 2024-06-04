@@ -23,15 +23,14 @@
     transition: 0.2s
 }
 
-/* a.nav-link {
-    padding-right: 0em;
-} */
+
+a.nav-item {
+    width: 2.4em;
+}
 
 .homeImage {
-    width: 1.7em;
-    /* height: 1.5em; */
+    width: 100%;
     margin-right: 0.33em;
-    /* height: auto; */
 }
 
 .homeImage:hover {
