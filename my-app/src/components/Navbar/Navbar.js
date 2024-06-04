@@ -4,6 +4,7 @@ import Navbar from 'react-bootstrap/Navbar'
 import { Container } from "react-bootstrap";
 import './Navbar.css'
 import { Dropdown, DropdownItem } from './DropdownItem'
+// import myLogo from './favicon.ico'
 
 var MyNavbar = () => {
     // const [toggle, setToggle] = useState(false)
