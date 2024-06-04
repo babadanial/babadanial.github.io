@@ -71,7 +71,7 @@ CS350.resourceFormat = ['OneNote']
 // MATH 136
 var MATH136Path = MathPath + "MATH136/"
 const MATH136 = new courseInstance("MATH136 - Linear Algebra 1", "Winter 2021")
-MATH136.resources.set("Mind map - concepts, results from second half of course", [MATH136Path + "Test 3 Prep.one"])
+MATH136.resources.set("Mind map: concepts and results from second half of course", [MATH136Path + "Test 3 Prep.one"])
 MATH136.resourceFormat = ['OneNote']
 
 // MATH 137
